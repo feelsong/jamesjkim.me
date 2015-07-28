@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+}
+
+body{
+	margin: 0;
+}
+
+img{
+	width: 100;
+}
+
+/*********
+HEADER
+*********/
+
+.container{
+	background: url("img/sf.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	margin-top: 45px;
+	position: center;
+}
+
+/*********
+ABOUT
+*********/
+
+.about{
+	color: white;
+	width: 100%;
+	background: url("https://download.unsplash.com/photo-1428930377079-45a584b6dd6b");
+	background-attachment: fixed;
+}
+
+.about .row{
+	background: rgba(0,0,0,0.2);
+}
+
+.about h1{
+	color: white;
+}
+
+.fillThis div{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.selfie{
+	border: 1px solid #f1f1f1;
+	border-radius: 50%;
+	height: 333px;
+	width: 250px;
+}
+
+/*********
+PORTFOLIO
+*********/
+
+.portfolio{
+	color: white;
+	background: red;
+		width: 100%;
+	height: 100vh;
+	background: url("https://download.unsplash.com/photo-1428865798880-73444f4cbefc");
+	background-attachment: fixed;
+}
+
+/*********
+CONTACT
+*********/
+
+.contact{
+	background: red;
+		width: 100%;
+	height: 50vh;
+	background: url("https://download.unsplash.com/photo-1428953773181-b4cf23cd7195");
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+/*********
+FOOTER
+*********/
+
+footer{
+	background: #333;
+	height: 25vh;
+	background-attachment: fixed;
+	margin-top: 0;
+}
+
+/*************
+MEDIA-QUERIES
+*************/
+
+@media(max-width: 1440px){
+	.container{
+		background-position: 75% 10%;
+	}
+}
